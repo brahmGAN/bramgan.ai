@@ -1,0 +1,93 @@
+.feature{
+    display:flex;
+    width:100%;
+    height: auto;
+    flex-direction: column;
+}
+.imageheader{
+    display: flex;
+    flex-direction: row;
+}
+.imagecontainerheader{
+    display: flex;
+    height: 200px;
+    justify-content: flex-end;
+    margin-left: 610px;
+}
+.headers{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width:40%;
+    justify-content: flex-start;
+    margin-left: 140px;
+    margin-bottom: 40px;
+    font-family: 'Bahnschrift Light';
+}
+.featurecontainer{
+    display:flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    width:80%;
+    margin-left: 180px;
+}
+.featurecontainerbox{
+    display: flex;
+    flex-direction: column;
+    height:auto;
+    width:35%;
+    margin-left: 40px;
+    justify-content: space-evenly;
+    font-family: 'Calibri Light';
+}
+.imageconatiner{
+    border-color: black;
+    border: 3px solid;
+    border-radius: 30px;
+    width:230px;
+    height:290px;
+    object-fit: cover;
+}
+@media only screen and (max-width:786px) {
+    .featurecontainer{
+        display:flex;
+        flex-direction: column;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        justify-content: center;
+        align-items: center;
+        width:80%;
+        margin-left: 0px;
+    }
+    .headers{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width:70%;
+        justify-content: flex-start;
+        margin-left: 80px;
+        margin-bottom: 40px;
+        font-family: 'Bahnschrift Light';
+    }
+    .imageconatiner{
+        border-color: black;
+        border: 3px solid;
+        border-radius: 30px;
+        width:230px;
+        height:290px;
+        object-fit: cover;
+        margin-top: 30px;
+    }
+    .featurecontainerbox{
+        display: flex;
+        flex-direction: column;
+        height:auto;
+        width:55%;
+        margin-left: 80px;
+        justify-content: center;
+        font-family: 'Calibri Light';
+    }
+}

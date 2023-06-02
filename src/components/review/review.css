@@ -1,0 +1,54 @@
+.reviewContainer{
+    display:flex;
+    flex-direction: column;
+}
+.reviewiconscontainer{
+    display:flex;
+    flex-direction: row;
+    margin-left: 0px;
+    justify-content: center;
+}
+.reviewicon{
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    background-image: url(/public/icons/BrahmGan_Template.svg);
+    align-items: center;
+    padding:20px;
+    margin-left: 40px;
+    height:500px;
+    width:400px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    font-size: 18px;
+    font-family: 'Calibri Light';
+}
+
+.reviewHeader{
+    display:flex;
+    margin-left: 140px;
+    font-family: 'Calibri Light';
+}
+
+.reviewicondiv{
+    margin-top:40px; 
+    margin-left:60px;
+    margin-right:40px;
+    padding:40px;
+}
+
+@media only screen and (max-width:768px){
+    .reviewiconscontainer{
+        display:flex;
+        flex-direction: column;
+        margin-left: 40px;
+        justify-content: center;
+    }
+    .reviewicon{
+        margin-left: 10px;
+    }
+    .reviewHeader{
+        margin-left: 40px;
+    }
+
+}

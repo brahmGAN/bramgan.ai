@@ -1,0 +1,67 @@
+.content{
+    position: relative;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.container1{
+    display:flex;
+    flex-direction: column;
+    background-color: #F8DB9F;
+    justify-content: center;
+    align-items: center;
+    height:507px;
+    width: 461px;
+    padding:30px;
+    font-family: 'Bahnschrift Light';
+}
+.iframeBox{
+    margin-left: 20px;
+    height:555px;
+    width: 510px;
+}
+.iframeBox img {
+    max-width: 361px;
+    height: 507px;   
+    object-fit: cover;
+}
+.btn1{
+    background-color: rgb(11, 19, 34);
+    color:#fff;
+    border:yellow;
+}
+
+@media only screen and (max-width: 768px){
+    .content{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .container1{
+        display:flex;
+        flex-direction: column;
+        background-color: #F8DB9F;
+        justify-content: center;
+        align-items: center;
+        height:auto;
+        width: auto;
+        padding: 40px;
+        margin-bottom: 20px;
+    }
+    .btn1{
+        background-color: rgb(11, 19, 34);
+        color:#fff;
+        border:yellow;
+    }
+    .iframeBox{
+        margin-left: 0px;
+        height:507px;
+        width: 461px;
+    }
+}

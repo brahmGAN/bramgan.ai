@@ -1,0 +1,14 @@
+.mailjoin{
+    margin-top: 5em;
+    justify-content: center;
+    text-align: center;
+  }
+  .mailjoin h1{
+    font-size: 30px;
+    font-weight: 700;
+    color: #5e5c5c;
+  }
+  .mailjoin input{
+    padding: 10px;
+    width: 400px;
+  }

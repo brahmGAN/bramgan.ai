@@ -1,0 +1,11 @@
+/* Footer styles */
+.footer {
+    display:flex;
+    flex-direction: column;
+    background-color: #000;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+  }
+  

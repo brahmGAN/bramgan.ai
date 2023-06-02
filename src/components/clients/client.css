@@ -1,0 +1,30 @@
+.clientsec{
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    background-color: #E1EFF2;
+  }
+  .clientdiv{
+  
+    display: flex;
+    gap: 30px;
+    margin-left: 5em;
+  }
+
+  @media only screen and (max-width: 768px){
+
+    .clientsec{
+      justify-content: center;
+      text-align: center;
+      height:auto;
+      width:auto;
+      background-color: #E1EFF2;
+    }
+
+    .clientdiv{
+      display: flex;
+      flex-direction: column;
+      margin-top: 3em;
+    }
+
+  }

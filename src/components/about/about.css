@@ -1,0 +1,45 @@
+.aboutpage{
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutheader{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 150px 150px 150px;
+    font-size: 16px;
+}
+.colum{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.row{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.subcolum{
+    display: flex;
+    flex-direction: column;
+    height:auto;
+    width: 300px;
+    white-space: 0px;
+    margin-left: 40px;
+}
+@media only screen and (max-width:768px){
+    .aboutheader{
+        padding: 0px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+.subcolum{
+    margin-left: 0px;
+    justify-content: center;
+}
+}

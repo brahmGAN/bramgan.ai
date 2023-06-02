@@ -1,0 +1,43 @@
+.seclast{
+    display: flex;
+    /* border: 2px solid red; */
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    background-color: #F1F1F1;
+    margin-top: 0%;
+
+  }
+  .seclast div{
+    /* border:2px solid blue; */
+    width: 40%;
+  }
+  .intouch{
+    font-size: 40px;
+    font-weight: 700;
+    color: #6b6969;
+    margin-top: 3em;
+  }
+
+  .seclast div a{
+    
+    color: #5e5c5c;
+  }
+
+  @media only screen and (max-width: 768px){
+
+    .seclast{
+      display: flex;
+      flex-direction: column;
+      margin: auto;
+      text-align: center;
+      background-color: #F1F1F1;
+      margin-top: 0%;
+  
+    }
+    .seclast div{
+      /* border:2px solid blue; */
+      width: 100%;
+    }
+
+  }

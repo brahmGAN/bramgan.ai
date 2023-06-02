@@ -1,0 +1,131 @@
+/* Menu bar styles */
+
+/* Styling for the menu container */
+.menu-container {
+ 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ /* background-color: rgb(255,255,255);*/
+  height: 80px;
+  /* border: 1px solid red;  */
+}
+
+.logoicon{
+ padding: 20px;
+}
+/* Styling for the menu items */
+.menu-item {
+  /* padding:20px; */
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 20px;
+  color: #333;
+  cursor: pointer;
+  font-weight: 750;
+  text-decoration: none;
+}
+
+/* Show the submenu when hovering over the menu item */
+.menu-item:hover .submenu-container {
+  display: block;
+}
+
+.button{
+    background-color: rgb(65, 134, 168);
+    color: #fff;
+    border: 1px solid transparent;
+	  transition: .2s ease;
+	  border-radius: 50px;
+    font-size: 20px;
+    padding: 10px 30px 10px 30px;
+    margin-right: 20px;
+    text-decoration: none !important;
+
+}
+.button:hover{
+  background-color: rgb(104,154,222);
+}
+
+.logo{
+  cursor: auto;
+  height:fit-content ;
+  width: fit-content;
+}
+.logoicon{
+  padding: 20px;
+ }
+  
+.dropbtn {
+  /* background-color: #4CAF50; */
+  color: black;
+  padding: 16px;
+  font-size: 20px;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  font-weight: 750;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+@media only screen and (max-width: 768px){
+  .menu-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height:auto;
+    
+  }
+  .logoicon{
+    display: flex;
+    justify-content: center;
+   }
+  .menu-item {
+    display: none;
+  }
+  .navcontainer{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .button{
+    display: none;
+  }
+.dropbtn {
+  /* background-color: #4CAF50; */
+  color: black;
+  padding: 16px;
+  font-size: 10px;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+  display:none;
+}
+}
