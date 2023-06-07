@@ -50,17 +50,10 @@ const HamburgerMenu = () => {
           <Link to='/technologies'>
           <li onClick={toggleMenu}>Technologies</li></Link>
           
-          <Link to='/about'><span onClick={toggleAbout} className="dropdown-button">
-              About <img src={isAboutOpen ? '/icons/up.svg' : 'icons/down.svg'} alt={''} />
-            </span></Link>
-            <ul className={`submenu ${isAboutOpen ? 'open' : ''}`}>
-              <Link to='/about'>
-                <li onClick={toggleMenu}>About Us</li>
-              </Link>
-              <Link to='/team'>
-                <li onClick={toggleMenu}>Team</li>
-              </Link>
-            </ul>
+          <Link to='/about'>
+          <li onClick={toggleMenu}> About </li>
+            </Link>
+           
         </ul>
       </nav>
     </header>

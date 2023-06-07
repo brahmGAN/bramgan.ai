@@ -34,12 +34,9 @@ export default function NavBar(){
         </Link>
         <div  className='dropdown'>
 
-        <Link to='./about' className="dropbtn">
+        <Link to='./about' className="menu-item">
         About
-            <div className="dropdown-content">
-            <Link to='/about'>About</Link>
-            <Link to='/team'>Team</Link>
-          </div>
+           
         </Link>
         </div>
         
